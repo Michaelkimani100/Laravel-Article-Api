@@ -14,4 +14,20 @@ class PagesController extends Controller
     {
         return view('index');
     }
+    public function design()
+    {
+        return view('design');
+    }
+    public function index2()
+    {
+        return view('index2');
+    }
+    public function tabler()
+    {
+        return view('tabler');
+    }
+    public function chart()
+    {
+        return view('chart');
+    }
 }

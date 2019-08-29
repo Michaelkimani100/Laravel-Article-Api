@@ -15,4 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 Route::get('/index', 'PagesController@index');
-
+Route::get('/design','PagesController@design');
+Route::get('/index2','PagesController@index2');
+Route::get('/tabler','PagesController@tabler');
+Route::get('/chart','PagesController@chart');

@@ -7,7 +7,7 @@
                         <a href="#">MY.WORK</a>
                     </li>
                 </ul>
-                <ul>
+                <ul >
                         <li><a href="#">Plans</a></li>
                         <li><a href="#">Aims</a></li>
                         <li><a href="#">Management</a></li>
@@ -68,7 +68,6 @@ header nav ul li a{
     color: blue;
     font-weight: 700;
     padding-left: 0;
-
 }
 .container{
     display: flex;

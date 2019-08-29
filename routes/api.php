@@ -31,5 +31,7 @@ Route::get('article/{id}','ArticleController@show');
 Route::post('article','ArticleController@store');
 //Update article
 Route::put('article','ArticleController@store');
+Route::resource('coin', 'Api\CoinController');
 //Update Delete
 Route::delete('article/{id}','ArticleController@destroy');
+
